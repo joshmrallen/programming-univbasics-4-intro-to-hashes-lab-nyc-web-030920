@@ -45,7 +45,10 @@ def update_counting_hash(hash, key)
   
   if hash.has_key?(key)
     hash[key] += 1
+    p hash
   else
     hash[key] = 1
+    p hash
+  end
   
 end
